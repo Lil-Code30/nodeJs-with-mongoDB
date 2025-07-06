@@ -44,9 +44,9 @@ The following endpoints are available:
 
 | Method | Endpoint | Description |
 | --- | --- | --- |
-| GET | / | Get all posts |
-| POST | / | Create a new post |
-| PUT | /:id | Update a post |
-| DELETE | /:id | Delete a post |
-| PATCH | /post-like/:id | Like a post |
-| PATCH | /post-dislike/:id | Dislike a post |
+| GET | /post | Get all posts |
+| POST | /post | Create a new post |
+| PUT | /post/:id | Update a post |
+| DELETE | /post/:id | Delete a post |
+| PATCH | /post/post-like/:id | Like a post |
+| PATCH | /post/post-dislike/:id | Dislike a post |
