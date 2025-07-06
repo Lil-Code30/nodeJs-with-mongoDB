@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-with-mongo-db",
+  "version": "1.0.0",
+  "description": "NodeJS with mongo db",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "server": "node server.js",
+    "watch": "node --watch server.js"
+  },
+  "author": "ISMAEL LOKO",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.1"
+  }
+}
