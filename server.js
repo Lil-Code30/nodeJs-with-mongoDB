@@ -2,7 +2,7 @@ import express from "express";
 import { router } from "./routes/post.routes.js";
 import { connectDB } from "./config/db.js";
 
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 
 // connect to DB
 connectDB();
